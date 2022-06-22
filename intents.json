@@ -1,0 +1,39 @@
+{"intents":[
+{
+    "tag": "greeting",
+    "patterns": ["Hi", "Hey", "Is anyone there?", "Hello","Greetings"],
+    "responses":["Hello, how may i help you?"]
+},
+{
+    "tag": "services",
+    "patterns": ["Can i book for a test drive?",
+                "Any information about warranty on the car", 
+                "Which after sales services do you provide?",
+                ""],
+    "responses":["We do engine checkups and service",
+                "Please, give us a call from any of our helpline for further details.",
+                "Yes! you can  whenever you are ready."]
+},
+{
+    "tag": "make",
+    "patterns": ["What latest make do you have?", "Which 4 wheel drive make is the best?", "Do you have hatchbacks?", "Do you have electric cars?",
+                "Audi","Mercedes","Toyota","Ford","Nissan","bmw"],
+    "responses":["Please, give us a call from any of our helpline for further details."]
+},
+{
+    "tag": "prices",
+    "patterns": ["How much does is a city car ", "A cheaper sedan will cost me how much","How much does it go for?","give me an estimation"],
+    "responses":["Please visit out showroom and get professional advice from our trusted agents."]
+},
+{
+    "tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+    "responses":["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+},
+{
+    "tag": "goodbye",
+    "patterns":["Bye", "See you later", "Goodbye"],
+    "responses":["Have a great day ahead!", "Bye! you are most welcomed"]
+}
+]
+}
