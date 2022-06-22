@@ -1,2 +1,2 @@
 # Chatbot
-Using Tensorflow and Natural language processing.
+Using Tensorflow and nltk.
